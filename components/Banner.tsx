@@ -3,8 +3,8 @@ import { useEffect, useState } from 'react'
 import { baseUrl } from '../constants/movie'
 import { Movie } from '../typings'
 import { FaPlay } from 'react-icons/fa'
-import { modalState, movieState } from '../atoms/modalAtom.'
-import { useRecoilState } from 'recoil'
+// import { modalState, movieState } from '../atoms/modalAtom.'
+// import { useRecoilState } from 'recoil'
 import Image from 'next/image'
 
 interface Props {
